@@ -75,7 +75,7 @@ body {
   color: var(--bone);
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   font-size: 14px;
 }
 
