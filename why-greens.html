@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why Greens — TurfVision · Iris</title>
+<meta name="description" content="The highest-value, highest-risk surface on any golf course. Why TurfVision is built for the greens conversation.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-brand">
+    <span class="aperture"></span>
+    <span><span class="iris-mark">IRIS</span><span class="div"> / </span><span class="tv">TURFVISION</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="product.html">Product</a></li>
+    <li><a href="why-greens.html" class="current">Why Greens</a></li>
+    <li><a href="platform.html">Platform</a></li>
+    <li><a href="dealers.html">Dealers</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+  <a href="index.html#request" class="nav-cta">Request Info</a>
+</nav>
+
+<main>
+
+  <section class="page-header">
+    <div class="page-header-inner">
+      <div class="eyebrow">Why Greens</div>
+      <h1>The most valuable<br>surface on the course.</h1>
+      <p class="lede">
+        And the most expensive thing on a golf course to lose. A single hydraulic event on
+        a green can mean seasonal closure, soil remediation, resodding, and the kind of
+        conversation with ownership that ends careers.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section-dark">
+    <div class="container-narrow">
+      <h2 style="margin-bottom: 32px;">A green is not a fairway.</h2>
+      <p class="lede" style="margin-bottom: 24px;">
+        Fairways are forgiving. They&rsquo;re wide, lower-cut, and built to recover. A
+        hydraulic stripe across a fairway is a six-week problem, an awkward conversation,
+        a budget line you&rsquo;d rather not explain.
+      </p>
+      <p class="lede" style="margin-bottom: 24px;">
+        Greens are not forgiving. They are the most carefully maintained surface on any golf
+        course — ultra-low cut, drainage-engineered, surfaced with putting-grade bentgrass or
+        bermuda that takes years to mature. Oil contamination doesn&rsquo;t just kill the grass.
+        It poisons the rootzone.
+      </p>
+      <p class="lede">
+        Once oil hits a green, you&rsquo;re no longer talking about recovery. You&rsquo;re talking
+        about remediation. Excavation. Resod. And until the new turf is established, the green
+        is closed.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== ROI CALCULATOR ===== -->
+  <section class="section section-deeper">
+    <div class="section-header">
+      <div>
+        <div class="eyebrow">ROI Calculator</div>
+        <h2>One incident pays for the fleet.</h2>
+      </div>
+      <p class="lede">
+        Tell us how many hydraulic machines you operate. We&rsquo;ll show you what a single
+        prevented incident is worth against the cost of equipping your fleet.
+      </p>
+    </div>
+
+    <div class="calc">
+      <h3>Your fleet</h3>
+
+      <div class="calc-row">
+        <label for="numMachines">Hydraulic machines in fleet</label>
+        <input type="number" id="numMachines" value="10" min="1" max="50">
+      </div>
+
+      <div class="calc-row">
+        <label for="incidentCost">Cost of one hydraulic incident</label>
+        <input type="number" id="incidentCost" value="5000" min="1000" step="500">
+      </div>
+
+      <div class="calc-row">
+        <label for="unitCost">TurfVision unit cost</label>
+        <input type="number" id="unitCost" value="2995" min="0" disabled>
+      </div>
+
+      <div class="calc-output">
+        <div class="out-label">Fleet equipment cost</div>
+        <div class="out-value" id="fleetCost" style="color: var(--bone);">$29,950</div>
+        <div class="out-note" id="fleetNote">10 units × $2,995 — with fleet discount applied at quote</div>
+      </div>
+
+      <div class="calc-output" style="margin-top: 16px; border-left-color: var(--teal);">
+        <div class="out-label">Incidents prevented to break even</div>
+        <div class="out-value" id="breakEven" style="color: var(--teal);">6</div>
+        <div class="out-note">Conservative — one greens incident often exceeds an entire fleet equip-out.</div>
+      </div>
+
+      <div class="calc-output" style="margin-top: 16px;">
+        <div class="out-label">Value protected per season (estimated)</div>
+        <div class="out-value" id="valueProtected">$50,000+</div>
+        <div class="out-note">Based on industry average of one preventable hydraulic event per ten machines per season.</div>
+      </div>
+    </div>
+
+    <p class="tag-mono" style="text-align: center; margin-top: 40px; max-width: 60ch; margin-left: auto; margin-right: auto; line-height: 1.6;">
+      ESTIMATES BASED ON CONSERVATIVE FAIRWAY-RECOVERY COSTS. ACTUAL COST OF A GREEN INCIDENT IS TYPICALLY 3–10× HIGHER.
+    </p>
+  </section>
+
+  <!-- ===== CASE STUDY PLACEHOLDER ===== -->
+  <section class="section section-bone">
+    <div class="container-narrow">
+      <div class="eyebrow" style="margin-bottom: 28px;">Case Study</div>
+      <h2 style="color: var(--ink); margin-bottom: 24px; max-width: 22ch;">
+        Real numbers from real courses.
+      </h2>
+      <p style="color: rgba(10,13,12,0.7); font-size: 18px; line-height: 1.55; max-width: 56ch; margin-bottom: 36px;">
+        Case studies from courses participating in the 2026 TurfVision beta program will be
+        published as results become available. If you&rsquo;ve experienced a hydraulic event
+        and would be willing to share your story (anonymous or attributed), we&rsquo;d like
+        to hear from you.
+      </p>
+      <a href="index.html#request" class="btn btn-primary" style="background: var(--ink); color: var(--bone);">
+        Contact the Iris Team
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="section section-dark">
+    <div class="container-narrow" style="text-align: center;">
+      <div class="eyebrow" style="margin-bottom: 28px; justify-content: center;">Talk to a Dealer</div>
+      <h2 style="margin-bottom: 28px; max-width: 22ch; margin-left: auto; margin-right: auto;">
+        Protect every green you&rsquo;re responsible for.
+      </h2>
+      <a href="index.html#request" class="btn btn-primary">
+        Request Information
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="mark">
+        <span class="aperture" style="width:16px;height:16px;border:1.5px solid var(--teal);border-radius:50%;position:relative;display:inline-block;"></span>
+        IRIS
+      </div>
+      <p>Precision sensing for golf course turf management. TurfVision is the first product in the Iris arc — toward agronomic intelligence and autonomous turf operations.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Product</h5>
+      <ul>
+        <li><a href="product.html">TurfVision</a></li>
+        <li><a href="why-greens.html">Why Greens</a></li>
+        <li><a href="platform.html">The Iris Platform</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="about.html">About Iris</a></li>
+        <li><a href="dealers.html">Dealers</a></li>
+        <li><a href="index.html#request">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Legal</h5>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Patents</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-legal">
+    <span>© 2026 Iris. All rights reserved.</span>
+    <span>TurfVision — Patent pending — United States & Canada</span>
+  </div>
+</footer>
+
+<script>
+function fmt(n) { return '$' + n.toLocaleString('en-US'); }
+
+function recalc() {
+  const machines = parseInt(document.getElementById('numMachines').value) || 0;
+  const incidentCost = parseInt(document.getElementById('incidentCost').value) || 0;
+  const unitCost = 2995;
+
+  // Apply fleet discount tiers
+  let perUnit = unitCost;
+  if (machines >= 11) perUnit = unitCost * 0.75;
+  else if (machines >= 6) perUnit = unitCost * 0.80;
+  else if (machines >= 3) perUnit = unitCost * 0.90;
+
+  const fleetCost = Math.round(machines * perUnit);
+  const breakEven = incidentCost > 0 ? Math.ceil(fleetCost / incidentCost) : 0;
+  // Conservative value-protected estimate: 1 prevented incident per 10 machines per season
+  const valueProtected = Math.round(incidentCost * Math.max(1, machines / 10));
+
+  let tier = '';
+  if (machines >= 11) tier = ' — 25%+ fleet discount';
+  else if (machines >= 6) tier = ' — 20% fleet discount';
+  else if (machines >= 3) tier = ' — 10% fleet discount';
+
+  document.getElementById('fleetCost').textContent = fmt(fleetCost);
+  document.getElementById('fleetNote').textContent =
+    machines + ' unit' + (machines === 1 ? '' : 's') + ' × $' + Math.round(perUnit).toLocaleString() + tier;
+  document.getElementById('breakEven').textContent = breakEven;
+  document.getElementById('valueProtected').textContent = fmt(valueProtected) + '+';
+}
+
+document.getElementById('numMachines').addEventListener('input', recalc);
+document.getElementById('incidentCost').addEventListener('input', recalc);
+recalc();
+</script>
+
+</body>
+</html>

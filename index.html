@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TurfVision by Iris — Real-time hydraulic leak detection for turf equipment</title>
+<meta name="description" content="TurfVision is the first real-time infrared hydraulic leak detection system for golf course turf equipment. Stop the leak before it leaves a mark.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav class="nav">
+  <a href="index.html" class="nav-brand">
+    <span class="aperture"></span>
+    <span><span class="iris-mark">IRIS</span><span class="div"> / </span><span class="tv">TURFVISION</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="product.html">Product</a></li>
+    <li><a href="why-greens.html">Why Greens</a></li>
+    <li><a href="platform.html">Platform</a></li>
+    <li><a href="dealers.html">Dealers</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+  <a href="#request" class="nav-cta">Request Info</a>
+</nav>
+
+<main>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="eyebrow rise">TURFVISION — Now Available</div>
+        <h1 class="rise rise-delay-1">
+          Stop the leak<br>
+          before it<br>
+          <span class="accent">leaves a mark.</span>
+        </h1>
+        <p class="lede rise rise-delay-2">
+          Real-time infrared hydraulic leak detection for golf course turf equipment.
+          Forward-facing IR scans the surface ahead. The moment oil hits the grass,
+          the alarm fires &mdash; before the stripe, before the call to ownership.
+        </p>
+        <div class="hero-actions rise rise-delay-3">
+          <a href="#request" class="btn btn-primary">
+            Request Information
+            <span class="arrow">→</span>
+          </a>
+          <a href="product.html" class="btn btn-ghost">
+            How it works
+          </a>
+        </div>
+      </div>
+
+      <!-- Thermal aperture visualization -->
+      <div class="thermal-viz rise rise-delay-2" aria-hidden="true">
+        <span class="label-top">SCAN ACTIVE</span>
+        <div class="crosshair"></div>
+        <div class="crosshair-inner"></div>
+        <div class="cross-h"></div>
+        <div class="cross-v"></div>
+        <div class="crosshair-core"></div>
+        <div class="anomaly"></div>
+        <span class="label-bottom">⚠ ANOMALY 18.3°C Δ</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATUS STRIP ===== -->
+  <div class="status-strip">
+    <div class="status-strip-inner">
+      <div class="status-cell">
+        <span><span class="dot"></span>SYSTEM</span>
+        <span class="val">Continuous IR scan</span>
+      </div>
+      <div class="status-cell">
+        <span>COMPATIBILITY</span>
+        <span class="val">Toro · Deere · Jacobsen</span>
+      </div>
+      <div class="status-cell">
+        <span>RESPONSE</span>
+        <span class="val">On-machine alarm</span>
+      </div>
+      <div class="status-cell">
+        <span>PATENT</span>
+        <span class="val">Pending</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== THE PROBLEM ===== -->
+  <section class="section section-dark">
+    <div class="section-header">
+      <div>
+        <div class="eyebrow">The Problem</div>
+        <h2>A failure you can&rsquo;t see.</h2>
+      </div>
+      <p class="lede">
+        Hydraulic lines on turf mowers fail without warning. The operator is focused forward.
+        The leak is below. By morning, a stripe of dead turf marks the path of the machine &mdash;
+        and on a green, the conversation that follows can end careers.
+      </p>
+    </div>
+
+    <div class="cost-grid">
+      <div class="numbers">
+        <div class="cost-cell amber">
+          <div class="label">Cost of one incident</div>
+          <div class="figure">$5,000</div>
+          <div class="sub">Conservative — fairway recovery</div>
+        </div>
+        <div class="cost-cell">
+          <div class="label">On a green</div>
+          <div class="figure">Closure</div>
+          <div class="sub">Soil remediation. Resod. Lost play.</div>
+        </div>
+        <div class="cost-cell teal">
+          <div class="label">TurfVision unit price</div>
+          <div class="figure">$2,995</div>
+          <div class="sub">One-time. Per machine.</div>
+        </div>
+        <div class="cost-cell">
+          <div class="label">Math</div>
+          <div class="figure">1 = 1</div>
+          <div class="sub">One incident prevented = one unit paid for.</div>
+        </div>
+      </div>
+
+      <div>
+        <h3 style="margin-bottom: 20px;">It isn&rsquo;t a maintenance incident.<br>It&rsquo;s a liability event.</h3>
+        <p style="margin-bottom: 16px;">
+          Turf repair. Lost rounds. Member complaints. In some jurisdictions, environmental reporting.
+          A single hydraulic event on the wrong surface can cost more than every preventive
+          tool a superintendent will buy in a season.
+        </p>
+        <p>
+          TurfVision is a risk mitigation investment, not a line item.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== THE 4-STEP FLOW ===== -->
+  <section class="section section-deeper">
+    <div class="section-header">
+      <div>
+        <div class="eyebrow">How TurfVision Works</div>
+        <h2>Four steps. No app required.</h2>
+      </div>
+      <p class="lede">
+        TurfVision is a forward-facing infrared sensor that mounts on any hydraulic-equipped
+        turf machine. It runs whenever the machine runs.
+      </p>
+    </div>
+
+    <div class="flow-grid">
+      <div class="flow-step">
+        <svg class="icon" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="18" cy="18" r="14"/>
+          <circle cx="18" cy="18" r="7"/>
+          <path d="M18 4v6M18 26v6M4 18h6M26 18h6"/>
+        </svg>
+        <div class="num">01 / SCAN</div>
+        <h4>IR sensor scans ahead</h4>
+        <p>Forward-facing infrared reads turf surface temperature continuously while the machine operates. All light conditions — dawn, dusk, full sun, cloudy.</p>
+      </div>
+
+      <div class="flow-step warn">
+        <svg class="icon" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M6 18c0-4 4-8 8-8s4 4 8 4 8-4 8-4M6 24c0-4 4-8 8-8s4 4 8 4 8-4 8-4"/>
+          <circle cx="24" cy="14" r="2" fill="currentColor"/>
+        </svg>
+        <div class="num">02 / DETECT</div>
+        <h4>Thermal anomaly identified</h4>
+        <p>The heat signature of hydraulic oil on cool turf is unmistakable. The detection algorithm reads the bloom and confirms within milliseconds.</p>
+      </div>
+
+      <div class="flow-step warn">
+        <svg class="icon" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M18 6v14M18 26v2"/>
+          <circle cx="18" cy="18" r="14"/>
+        </svg>
+        <div class="num">03 / ALERT</div>
+        <h4>On-machine alarm fires</h4>
+        <p>Audible and visual alarm activates on the cab immediately. No phone. No app. No connectivity. The operator knows before the next pass.</p>
+      </div>
+
+      <div class="flow-step">
+        <svg class="icon" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M6 24h8l4-12 4 12h8"/>
+          <circle cx="18" cy="30" r="2" fill="currentColor"/>
+        </svg>
+        <div class="num">04 / RESPOND</div>
+        <h4>Operator acts. Damage stops.</h4>
+        <p>Machine is stopped or routed to a cart path. With the optional Shutdown tier, hydraulic power cuts automatically. The stripe never appears.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECOND SET OF EYES ===== -->
+  <section class="section section-bone">
+    <div class="container-narrow" style="text-align: center;">
+      <div class="eyebrow" style="margin-bottom: 28px;">For the people responsible</div>
+      <h2 style="margin-bottom: 32px; max-width: 18ch; margin-left: auto; margin-right: auto;">
+        You can&rsquo;t be on every fairway.
+      </h2>
+      <p class="lede" style="margin: 0 auto 40px; max-width: 56ch;">
+        You inspect the equipment. You train the operators. But hydraulic lines fail mid-round,
+        300 yards from the shop, with no warning. TurfVision gives every operator a second set
+        of eyes &mdash; always on, never distracted, watching the turf while they watch the line.
+      </p>
+      <a href="#request" class="btn btn-primary" style="background: var(--ink); color: var(--bone);">
+        Request Information
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIAL PLACEHOLDER ===== -->
+  <section class="section section-dark">
+    <div class="container-narrow">
+      <div class="eyebrow" style="margin-bottom: 28px;">From the field</div>
+      <blockquote style="
+        font-family: var(--sans);
+        font-size: clamp(22px, 2.8vw, 34px);
+        font-weight: 300;
+        letter-spacing: -0.02em;
+        line-height: 1.3;
+        color: var(--bone);
+        margin: 0 0 32px;
+        max-width: 32ch;">
+        Superintendent testimonials from the beta program will appear here following the
+        2026 season.
+      </blockquote>
+      <p class="tag-mono">— TURFVISION BETA · ROLLOUT IN PROGRESS</p>
+    </div>
+  </section>
+
+  <!-- ===== REQUEST FORM ===== -->
+  <section class="section section-deeper" id="request">
+    <div class="section-header">
+      <div>
+        <div class="eyebrow">Request Information</div>
+        <h2>Talk to a dealer.</h2>
+      </div>
+      <p class="lede">
+        TurfVision is sold and installed through trained Toro, John Deere, and Jacobsen turf
+        equipment dealers. Tell us about your course and we&rsquo;ll connect you with the
+        right dealer in your region.
+      </p>
+    </div>
+
+    <form class="request-form" id="requestForm" onsubmit="return submitForm(event)">
+      <div class="form-row">
+        <div class="form-field">
+          <label for="firstName">First name</label>
+          <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div class="form-field">
+          <label for="lastName">Last name</label>
+          <input type="text" id="lastName" name="lastName" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="phone">Phone (optional)</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="course">Course / facility name</label>
+          <input type="text" id="course" name="course" required>
+        </div>
+        <div class="form-field">
+          <label for="role">Your role</label>
+          <select id="role" name="role" required>
+            <option value="">Select...</option>
+            <option>Golf Course Superintendent</option>
+            <option>Equipment Manager / Head Mechanic</option>
+            <option>General Manager / Owner</option>
+            <option>Dealer / Distributor</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="region">Region (state / province)</label>
+          <input type="text" id="region" name="region" required>
+        </div>
+        <div class="form-field">
+          <label for="machines">Hydraulic machines in fleet</label>
+          <input type="text" id="machines" name="machines" placeholder="e.g. 12">
+        </div>
+      </div>
+
+      <div class="form-field full" style="margin-bottom: 22px;">
+        <label for="notes">Notes (optional)</label>
+        <textarea id="notes" name="notes" placeholder="Anything we should know about your fleet, equipment brands, or timeline."></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary form-submit">
+        Submit Request
+        <span class="arrow">→</span>
+      </button>
+
+      <p class="form-note">
+        Your information is shared only with the regional dealer best positioned to serve your course.
+      </p>
+    </form>
+
+    <div class="form-success" id="formSuccess">
+      <div class="check">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12l5 5L20 7"/>
+        </svg>
+      </div>
+      <h3 style="margin-bottom: 14px;">Request received.</h3>
+      <p style="max-width: 42ch; margin: 0 auto;">
+        A regional dealer will be in touch within two business days. In the meantime,
+        you can explore the <a href="product.html" style="color: var(--teal);">product details</a>
+        or read about the <a href="platform.html" style="color: var(--teal);">Iris platform</a>.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="mark">
+        <span class="aperture" style="width:16px;height:16px;border:1.5px solid var(--teal);border-radius:50%;position:relative;display:inline-block;"></span>
+        IRIS
+      </div>
+      <p>
+        Precision sensing for golf course turf management. TurfVision is the first product in
+        the Iris arc — toward agronomic intelligence and autonomous turf operations.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Product</h5>
+      <ul>
+        <li><a href="product.html">TurfVision</a></li>
+        <li><a href="why-greens.html">Why Greens</a></li>
+        <li><a href="platform.html">The Iris Platform</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="about.html">About Iris</a></li>
+        <li><a href="dealers.html">Dealers</a></li>
+        <li><a href="index.html#request">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Legal</h5>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Patents</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-legal">
+    <span>© 2026 Iris. All rights reserved.</span>
+    <span>TurfVision — Patent pending — United States & Canada</span>
+  </div>
+</footer>
+
+<script>
+function submitForm(e) {
+  e.preventDefault();
+  // In production this would POST to a Formspree or similar endpoint.
+  // For now, show the success state.
+  document.getElementById('requestForm').style.display = 'none';
+  document.getElementById('formSuccess').classList.add('show');
+  document.getElementById('formSuccess').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  return false;
+}
+</script>
+
+</body>
+</html>

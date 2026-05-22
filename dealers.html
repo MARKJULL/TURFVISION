@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dealers — TurfVision · Iris</title>
+<meta name="description" content="TurfVision is sold and installed through certified Toro, John Deere, and Jacobsen dealers. Become an authorized Iris dealer.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-brand">
+    <span class="aperture"></span>
+    <span><span class="iris-mark">IRIS</span><span class="div"> / </span><span class="tv">TURFVISION</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="product.html">Product</a></li>
+    <li><a href="why-greens.html">Why Greens</a></li>
+    <li><a href="platform.html">Platform</a></li>
+    <li><a href="dealers.html" class="current">Dealers</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+  <a href="index.html#request" class="nav-cta">Request Info</a>
+</nav>
+
+<main>
+
+  <section class="page-header">
+    <div class="page-header-inner">
+      <div class="eyebrow">Dealer Program</div>
+      <h1>Sold and installed<br>by the people who<br>service the fleet.</h1>
+      <p class="lede">
+        TurfVision is distributed exclusively through trained Toro, John Deere, and Jacobsen
+        turf equipment dealers. The dealer is the install partner, the service line, and the
+        relationship the superintendent already trusts.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== FOR SUPERINTENDENTS ===== -->
+  <section class="section section-dark">
+    <div class="section-header">
+      <div>
+        <div class="eyebrow">If you&rsquo;re a superintendent</div>
+        <h2>Talk to your dealer.</h2>
+      </div>
+      <p class="lede">
+        TurfVision is available through your existing turf equipment dealer. They handle
+        the quote, the installation, and the ongoing support &mdash; on the same service
+        relationship that already keeps your fleet running.
+      </p>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature">
+        <span class="tag-mono">01 / IF YOU KNOW YOUR DEALER</span>
+        <h4>Reach out directly</h4>
+        <p>Your Toro, John Deere, or Jacobsen dealer can quote, order, and install TurfVision
+        on your fleet. Tell them you&rsquo;re interested in Iris TurfVision.</p>
+      </div>
+      <div class="feature">
+        <span class="tag-mono">02 / IF YOU&rsquo;RE NOT SURE</span>
+        <h4>Request a referral</h4>
+        <p>Submit your details and we&rsquo;ll connect you with the certified dealer in your
+        region. Response within two business days.</p>
+        <a href="index.html#request" style="display: inline-block; margin-top: 18px; color: var(--teal); text-decoration: none; font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em;">
+          REQUEST DEALER REFERRAL →
+        </a>
+      </div>
+      <div class="feature">
+        <span class="tag-mono">03 / IF YOUR DEALER IS UNFAMILIAR</span>
+        <h4>Have them contact us</h4>
+        <p>Dealer onboarding is open in the US and Canada. If your dealer isn&rsquo;t yet
+        certified, point them to the application form below &mdash; we&rsquo;ll move quickly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOR DEALERS ===== -->
+  <section class="section section-deeper">
+    <div class="section-header">
+      <div>
+        <div class="eyebrow">If you&rsquo;re a dealer</div>
+        <h2>Become an Iris partner.</h2>
+      </div>
+      <p class="lede">
+        TurfVision is a new product category &mdash; not a better version of something
+        your competitors already sell. First-mover dealers receive territory protection,
+        co-marketing support, and training.
+      </p>
+    </div>
+
+    <div class="tier-grid">
+      <div class="tier featured">
+        <h3>What you get</h3>
+        <div class="tier-sub">Iris Authorized Dealer Program</div>
+        <ul>
+          <li>Territory protection in defined service regions</li>
+          <li>Certified installation training for service technicians</li>
+          <li>Margin structure on units and fleet orders</li>
+          <li>Co-marketing materials and event support</li>
+          <li>Direct access to Iris engineering for field questions</li>
+          <li>Priority on Phase 2 Agronomic Intelligence rollout</li>
+        </ul>
+      </div>
+
+      <div class="tier">
+        <h3>What we&rsquo;re looking for</h3>
+        <div class="tier-sub">Dealer requirements</div>
+        <ul>
+          <li>Authorized service relationship with Toro, John Deere, or Jacobsen</li>
+          <li>Established turf customer base in defined geography</li>
+          <li>Service technician capacity for installation training</li>
+          <li>Willingness to lead with the greens-protection conversation</li>
+          <li>Multi-year commitment to the Iris platform arc</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DEALER INQUIRY FORM ===== -->
+  <section class="section section-dark" id="dealer-apply">
+    <div class="section-header">
+      <div>
+        <div class="eyebrow">Dealer Inquiry</div>
+        <h2>Apply for territory.</h2>
+      </div>
+      <p class="lede">
+        Tell us about your dealership and territory. We&rsquo;ll respond within five business
+        days with next steps for certification.
+      </p>
+    </div>
+
+    <form class="request-form" id="dealerForm" onsubmit="return submitDealer(event)">
+      <div class="form-row">
+        <div class="form-field">
+          <label for="dealerName">Dealership name</label>
+          <input type="text" id="dealerName" required>
+        </div>
+        <div class="form-field">
+          <label for="contactName">Your name</label>
+          <input type="text" id="contactName" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="dEmail">Email</label>
+          <input type="email" id="dEmail" required>
+        </div>
+        <div class="form-field">
+          <label for="dPhone">Phone</label>
+          <input type="tel" id="dPhone" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="oem">Primary OEM authorization</label>
+          <select id="oem" required>
+            <option value="">Select...</option>
+            <option>Toro</option>
+            <option>John Deere</option>
+            <option>Jacobsen</option>
+            <option>Multiple OEMs</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="territory">Territory (state/province)</label>
+          <input type="text" id="territory" required>
+        </div>
+      </div>
+      <div class="form-field full" style="margin-bottom: 22px;">
+        <label for="dNotes">Tell us about your business</label>
+        <textarea id="dNotes" placeholder="Number of golf course customers, service team size, current product lines you carry."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary form-submit">
+        Submit Dealer Application
+        <span class="arrow">→</span>
+      </button>
+      <p class="form-note">
+        Reviewed by the Iris dealer team. Response within five business days.
+      </p>
+    </form>
+
+    <div class="form-success" id="dealerSuccess">
+      <div class="check">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12l5 5L20 7"/>
+        </svg>
+      </div>
+      <h3 style="margin-bottom: 14px;">Application received.</h3>
+      <p style="max-width: 42ch; margin: 0 auto;">
+        The Iris dealer team will review and respond within five business days.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="mark">
+        <span class="aperture" style="width:16px;height:16px;border:1.5px solid var(--teal);border-radius:50%;position:relative;display:inline-block;"></span>
+        IRIS
+      </div>
+      <p>Precision sensing for golf course turf management. TurfVision is the first product in the Iris arc — toward agronomic intelligence and autonomous turf operations.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Product</h5>
+      <ul>
+        <li><a href="product.html">TurfVision</a></li>
+        <li><a href="why-greens.html">Why Greens</a></li>
+        <li><a href="platform.html">The Iris Platform</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="about.html">About Iris</a></li>
+        <li><a href="dealers.html">Dealers</a></li>
+        <li><a href="index.html#request">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Legal</h5>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Patents</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-legal">
+    <span>© 2026 Iris. All rights reserved.</span>
+    <span>TurfVision — Patent pending — United States & Canada</span>
+  </div>
+</footer>
+
+<script>
+function submitDealer(e) {
+  e.preventDefault();
+  document.getElementById('dealerForm').style.display = 'none';
+  document.getElementById('dealerSuccess').classList.add('show');
+  document.getElementById('dealerSuccess').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  return false;
+}
+</script>
+
+</body>
+</html>
